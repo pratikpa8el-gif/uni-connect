@@ -1,14 +1,14 @@
 import { useState } from "react";
-import { AuthProvider, useAuth } from "./src/contexts/AuthContext";
-import { LoginPage } from "./src/components/auth/LoginPage";
-import { SignupPage } from "./src/components/auth/SignupPage";
-import { Sidebar } from "./Sidebar";
-import { FeedSection } from "./FeedSection";
-import { NotesSection } from "./src/components/NotesSection";
-import { ClubsSection } from "./src/components/ClubsSection";
-import { CollegesSection } from "./CollegesSection";
-import { LiveMatchSection } from "./LiveMatchSection";
-import { ProfileSection } from "./src/components/ProfileSection";
+import { AuthProvider, useAuth } from "./contexts/AuthContext";
+import { LoginPage } from "./components/auth/LoginPage";
+import { SignupPage } from "./components/auth/SignupPage";
+import { Sidebar } from "./components/Sidebar";
+import { FeedSection } from "./components/FeedSection";
+import { NotesSection } from "./components/NotesSection";
+import { ClubsSection } from "./components/ClubsSection";
+import { CollegesSection } from "./components/CollegesSection";
+import { LiveMatchSection } from "./components/LiveMatchSection";
+import { ProfileSection } from "./components/ProfileSection";
 
 function AuthenticatedApp() {
   const [activeTab, setActiveTab] = useState("feed");
